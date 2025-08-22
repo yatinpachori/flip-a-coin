@@ -38,7 +38,7 @@ body {
 }
 
 .coin {
-  background-image: url(resources/heads.svg);
+  background-image: url('/heads.svg');
   background-repeat: no-repeat;
   width: 200px;
   height: 200px;
@@ -46,7 +46,7 @@ body {
   margin-left: 25px;
 }
 .coinShadow {
-  background: url(resources/shadow.svg);
+  background: url('/shadow.svg');
   width: 100px;
   height: 20px;
   background-repeat: no-repeat;
@@ -86,4 +86,5 @@ background-color: #2c6fa7;
 
 .coin.flip {
   animation: flip 1s ease-in-out;
+
 }
