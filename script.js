@@ -16,12 +16,13 @@ function random() {
     display.textContent = result;
 
     if (result === "Tails") {
-      coin.style.backgroundImage = `url(resources/tails.svg)`;
+      coin.style.backgroundImage = `url('tails.svg')`;
     } else {
-      coin.style.backgroundImage = `url(resources/heads.svg)`;
+      coin.style.backgroundImage = `url('heads.svg')`;
     }
   }, 1000); // match animation duration (1s)
 }
 
 button.addEventListener("click", random);
 coin.addEventListener("click", random);
+
