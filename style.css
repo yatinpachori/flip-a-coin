@@ -38,18 +38,22 @@ body {
 }
 
 .coin {
-  background-image: url("/heads.svg");
+  background-image: url("heads.svg");
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   width: 200px;
   height: 200px;
   margin-top: 55px;
   margin-left: 25px;
 }
 .coinShadow {
-  background: url("/shadow.svg");
+  background: url("shadow.svg");
   width: 100px;
   height: 20px;
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   margin-right: 10px;
   margin-bottom: 25px;
 }
@@ -88,6 +92,7 @@ background-color: #2c6fa7;
   animation: flip 1s ease-in-out;
 
 }
+
 
 
 
