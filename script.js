@@ -14,6 +14,7 @@ function random() {
   setTimeout(() => {
     const result = Math.random() < 0.5 ? "Heads" : "Tails";
     display.textContent = result;
+    console.log(result);
 
     if (result === "Tails") {
       coin.style.backgroundImage = `url('tails.svg')`;
@@ -25,4 +26,5 @@ function random() {
 
 button.addEventListener("click", random);
 coin.addEventListener("click", random);
+
 
